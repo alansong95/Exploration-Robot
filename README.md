@@ -2,21 +2,26 @@
 # Exploration Robot
 [For more information](https://awsong.000webhostapp.com/project/exploration_robot.html)
 
-Contents
-*   [Key Words](#toc_key)*   [What is Exploration Robot?](#toc_whatis)*   [Layout](#toc_layout)
-
-*   [Details](#toc_details)
+## Table of Contents
+[Key Words](#toc_key)
+[What is Exploration Robot?](#toc_whatis)  
+[Layout](#toc_layout)
+[Details](#toc_details)
     *   [Servos](#toc_servos)
     *   [Wi-Fi](#toc_wifi)
     *   [Camera](#toc_camera)
     *   [Xbox Controller](#toc_xbox)
-*   [Language/Software used](#toc_lan)
-*   [Hardware used](#toc_hard)
-#### Key Words
+[Language/Software used](#toc_lan)
+[Hardware used](#toc_hard)
+[Link](#toc_link)
+
+<a name="toc_key"/>
+## Key Words
 
 BeagleBone, Linux, C, C++, Multithreaded Programming, Socket Programming, UDP, SDL2, Python, Makefile, Shell script, TMR, PWM, real time
 
-#### What is Exploration Robot?
+<a name="toc_whatis"/>
+## What is Exploration Robot?
 
 Exploration Robot is a robot that goes to extreme environments that human cannot go to like places exposed to radiation and too small for people. It then gathers information such as video (real-time), temperature, and light intensity, of the area and send it to the base station.
 
@@ -34,7 +39,8 @@ The robot’s camera sends the video in real time to the base station, which dis
 
 Information such as temperature and light intensity is shown in base station’s terminal.
 
-#### Layout
+<a name="toc_layout"/>
+## Layout
 
 ![](github_img/er_layout.png)  
 
@@ -46,9 +52,11 @@ Information such as temperature and light intensity is shown in base station’s
 
 **Control_TMR_Bone.c**: Receives commands from base station via UDP and controls the robot’s movement accordingly.
 
-#### Details
+<a name="toc_details"/>
+## Details
 
-##### Servos
+<a name="toc_servos"/>
+### Servos
 
 ![](github_img/er_circuit.png)  
 
@@ -60,7 +68,8 @@ Controlled by:
 
 *   Control_TMR_Bone.c
 
-##### Wi-Fi
+<a name="toc_wifi"/>
+### Wi-Fi
 
 A Wi-Fi dongle is connected to the BeagleBone’s USB slot. Then, WPA is setup for the security. After configuring the interface file, the WiFi-driver is manually started.
 
@@ -76,17 +85,20 @@ Used in:
 *   Send_UDPs.c
 *   Control_TMR_Bone.c
 
-##### Camera
+<a name="toc_camera"/>
+### Camera
 
 Logitech C110 camera is connected to the BeagleBone’s usb slot. The robot shoots video and send it in real time via UDP/IP to the base station in real time. The video is then shown on base station’s SDL window.
 
-##### Xbox Controller
+<a name="toc_xbox"/>
+### Xbox Controller
 
-![](github_img/er_chart.png)
+![](github_img/er_xbox.png)
 
 The Xbox controller is connected to the base station. When a button is pressed, commander3.cpp sends an appropriate command to the BeagleBone (handled by SDL_Event).
 
-#### Language/Software used
+<a name="toc_lan"/>
+## Language/Software used
 
 *   C
 *   C++
@@ -98,7 +110,8 @@ The Xbox controller is connected to the base station. When a button is pressed, 
 *   Multithreaded Programming
 *   Socket Programming
 
-#### Hardware used
+<a name="toc_hard"/>
+## Hardware used
 
 *   BeagleBone
 *   Temperature sensor
@@ -108,6 +121,7 @@ The Xbox controller is connected to the base station. When a button is pressed, 
 *   Servos
 *   Xbox controller
 
+<a name="toc_link"/>
 ### Link
 [For more information](https://awsong.000webhostapp.com/project/exploration_robot.html)
 
