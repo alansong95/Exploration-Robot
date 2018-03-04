@@ -31,7 +31,7 @@ Exploration Robot is a robot that goes to extreme environments that human cannot
 
 Top view of Exploration Robot
 
-![](github_img/er_bot.jpg)
+![](github_img/er_bot_resized.jpg)
 
 Bottom view of Exploration Robot
 
