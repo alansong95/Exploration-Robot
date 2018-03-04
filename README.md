@@ -3,17 +3,17 @@
 [For more information](https://awsong.000webhostapp.com/project/exploration_robot.html)
 
 ## Table of Contents
-*[Key Words](#toc_key)
-*[What is Exploration Robot?](#toc_whatis)  
-*[Layout](#toc_layout)
-*[Details](#toc_details)
+*   [Key Words](#toc_key)
+*   [What is Exploration Robot?](#toc_whatis)  
+*   [Layout](#toc_layout)
+*   [Details](#toc_details)
     *   [Servos](#toc_servos)
     *   [Wi-Fi](#toc_wifi)
     *   [Camera](#toc_camera)
     *   [Xbox Controller](#toc_xbox)
-*[Language/Software used](#toc_lan)
-*[Hardware used](#toc_hard)
-*[Link](#toc_link)
+*   [Language/Software used](#toc_lan)
+*   [Hardware used](#toc_hard)
+*   [Link](#toc_link)
 
 <a name="toc_key"/>
 
@@ -28,9 +28,11 @@ BeagleBone, Linux, C, C++, Multithreaded Programming, Socket Programming, UDP, S
 Exploration Robot is a robot that goes to extreme environments that human cannot go to like places exposed to radiation and too small for people. It then gathers information such as video (real-time), temperature, and light intensity, of the area and send it to the base station.
 
 ![](github_img/er_top.png)
+
 Top view of Exploration Robot
 
 ![](github_img/er_bot.jpg)
+
 Bottom view of Exploration Robot
 
 Exploration Robot consists of BeagleBone (runs Ubuntu), Logitech C110 camera, photoresistor, temperature sensor, Wi-Fi dongle, 3 servos, 3 omni wheels, 2 Li-Po Batteries, and DC/DC Converter.
@@ -136,7 +138,7 @@ The Xbox controller is connected to the base station. When a button is pressed, 
 ### Link
 [For more information](https://awsong.000webhostapp.com/project/exploration_robot.html)
 
-<br \>
+<br />
 
 \<KAIST EE474 Electronic Design Lab>
 
